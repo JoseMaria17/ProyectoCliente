@@ -1,0 +1,56 @@
+<app-header></app-header>
+
+<div id="lista-cursos" class="container">
+  <h3 style="text-align: center; margin: 40px 0px;" id="encabezado" class="encabezado font1">
+    Explora el Blog de nuestra comunidad: Blissful Sadhana
+  </h3>
+
+  <div class="form-group row "
+  *ngIf="detalles === 'no' ">
+    <div class="col-lg-12 col-sm-12 col-12 container1"
+    *ngFor=" let b of blog  ">
+        <div class="card form-group row">
+           <div  class="col-lg-4">
+            <img [src]="b.imgPost" class="imagen-curso u-full-width">
+
+          </div>
+
+            <div class="info-card "><!-- col-lg-8 -->
+                <h6><b>{{b.titulo}} </b></h6>
+                <p>Autor: {{b.autor | titlecase}} </p>
+                <p>{{b.fecha}}</p>
+                <p>{{b.contenido}}</p>
+                <a  class="u-full-width button-primary button input agregar-carrito"  href="blog/{{b.id}}" >Leer mas</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-12 col-sm-12 col-12 container2 text"
+  *ngIf="detalles === 'si' ">
+    <!--  <b>{{error}}</b> -->
+    <div class=""
+    *ngIf="error==''"><!-- card1 form-group row -->
+    <p >{{contenido}}</p><!-- class="contenido text" -->
+    <p>{{contenido1}}</p>
+  </div>
+
+      <div class="blog"> <!-- class="col-lg-12 contenido" -->
+       <img [src]="imgPrincipal" class="imagen-curso1 u-full-width ">
+       <!-- <h6><b>{{titulo}} </b></h6> -->
+       <p>Autora: {{autor | titlecase}} </p>
+      <!--  <p>{{fecha}}</p> -->
+     </div>
+
+     <div>
+      <img  class="img-f" src="https://reqres.in/img/faces/7-image.jpg" alt="">
+     </div>
+
+</div>
+</div>
+
+
+
+
+<app-footer></app-footer>

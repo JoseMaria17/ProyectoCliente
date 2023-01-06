@@ -1,0 +1,114 @@
+<section style="background-color: #895D3B;" id="header" class="header">
+
+      <div class="form-group row">
+          <div class="col-lg-11">
+              <a class="sadana" href="/"><img src="../../../assets/img/Capturasv.PNG" id="logo"></a>
+          </div>
+          <div class="u-pull-right col-lg-1"> <!-- columns -->
+              <ul>
+                  <li class="submenu">
+                          <img src="../../../assets/img/cart.png" id="img-carrito">
+                          <div id="carrito">
+
+                                  <table borde="1"><!-- id="lista-carrito"  -->  <!-- class="u-full-width" -->
+                                      <thead>
+                                          <tr>
+                                              <!-- <th>Imagen</th> -->
+                                              <th>Nombre</th>
+                                              <th>Precio</th>
+                                             <!-- <th>Cantidad</th> -->
+                                              <th></th>
+                                              <!-- <th></th> -->
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr  *ngFor="let c  of Carrito"  >
+
+                                          <!-- <td>{{c.img}}</td> -->
+                                          <td>{{c.nombre}}</td>
+                                          <td>${{c.precio | number}}</td>
+                                          <td><!--<a (click)="mas(c.id)">+</a>{{c.cantidad}}<a (click)="menos(c.id)">-</a>--></td>
+
+                                          <!-- <td>{{c.precio*c.cantidad}}</td> -->
+                                          <td><a class="borrar-curso" (click)="borrarCurso(c.id)"> X </a></td>
+
+                                      </tr>
+                                      </tbody>
+                                      <tfoot>
+                                        <tr>
+                                            <th>Total a Pagar</th>
+                                            <th>${{toltal | number}}</th>
+                                            <th></th>
+
+                                        </tr>
+                                    </tfoot>
+                                  </table>
+
+                                  <a  id="vaciar-carrito" class="button u-full-width" (click)="vaciarCarrito()">Vaciar Carrito</a>
+                                  <a *ngIf="toltal>0" id="pago" class="button u-full-width" (click)="helpInformation()" target="_blank" href="{{url}}">Ir a pagar</a>
+                          </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+</section>
+
+<div class="sec-img">
+  <img src="assets/img/carrusel1.jpg" alt="">
+</div>
+
+ <div id="lista-cursos" class="container">
+      <h6 id="encabezado" class="encabezado font1">Servicios:</h6>
+
+      <div class="form-group row">
+        <div class="col-lg-6 col-sm-6 col-12"
+        *ngFor="let s of Servicios  ">
+            <div class="card form-group row">
+               <div  class="col-lg-4">
+                <img [src]="s.img" class="imagen-curso "> <!-- u-full-width -->
+              </div>
+
+                <div class="info-card col-lg-8">
+                    <h6><b>{{s.titulo}} </b></h6>
+                    <p>Profesora: {{s.docente | titlecase}} </p>
+                   <!--  <p>Inf: {{s.detalles}}</p> -->
+                    <p > <span class="u-pull-right ">Precio: ${{s.precio | number}} </span></p>
+                    <a  class="u-full-width button-primary button input agregar-carrito" (click)="AgregarCarrito(s.id)">Agregar Al Carrito</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+</div>
+
+<div class="division">
+  <div >
+    <hr>
+  </div>
+  <div>
+   <a href=""><i class="icono fa-solid fa-spa"></i></a>
+  </div>
+  <div>
+    <hr>
+  </div>
+</div>
+
+<app-tarjetas></app-tarjetas>
+
+
+
+
+<!-- <div class="grid">
+  <div class="caja1 ">
+       <p>El yoga es el arte unificador de transformar el dharma en acción, ya sea a través de pensamiento inspirado, nutrir adecuadamente a nuestros hijos, una pintura, amabilidad o un acto de paz que siempre mueve la humanidad hacia delante.</p>
+      <br><br>
+       <h6>Micheline Berry</h6>
+  </div>
+  <div class="caja">
+    <img src="../../../assets/img/yogam1.jpg" alt="">
+  </div>
+</div> -->
+
+<app-footer></app-footer>
