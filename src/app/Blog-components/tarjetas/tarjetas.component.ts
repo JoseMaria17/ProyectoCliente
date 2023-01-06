@@ -10,8 +10,9 @@ SwiperCore.use([EffectCoverflow, Pagination]);
   selector: 'app-tarjetas',
   templateUrl: './tarjetas.component.html',
   styleUrls: ['./tarjetas.component.scss'],
-  encapsulation: ViewEncapsulation.None,
+  encapsulation: ViewEncapsulation.None
 })
+
 export class TarjetasComponent {
 
 }
