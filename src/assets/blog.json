@@ -8,8 +8,8 @@
       "contenido":"Permite a las personas adentrarse en el mundo del yoga con meditacion y asanas simples",
       "contenido_p":"matteo stucchi es un cocinero italiano de solo 23 años que se ha hecho famoso en internet por enseñar sus postres de una manera muy peculiar. a él no le bastaba con hacer un bodegón bonito y subirlo a instagram. qué va. él quería que fuera algo más especial, más curioso, más en miniatura. así que cada vez que sube una foto, crea todo un universo de pequeños personajes alrededor de sus dulces que, literalmente, lo petan.",
       "contenido_s":"si lo buscas en instagram, verás que ha elegido un nombre muy bien traído para su proyecto: i dolci di gulliver. y es que claro, todos esos postres son gigantescos al lado de las personitas que trabajan en los tiramisús, las palmeritas o los profiteroles para que tú puedas comértelos. aunque no todo va a ser trabajar, a veces los muffins se convierten en montañas que escalar y los brownies en ríos de chocolate que hay que navegar. todo muy loco, sip.",
-      "imgPost": "../../../assets/img/tarjeta1.jpg",
-      "imgPrincipal":"../../../assets/img/tarjeta3.jpg"
+      "imgPost": "assets/img/tarjeta1.jpg",
+      "imgPrincipal":"assets/img/tarjeta3.jpg"
   },
 
   {
@@ -21,8 +21,8 @@
     "contenido":"Permite a las personas adentrarse en el mundo del yoga con meditacion y asanas simples",
     "contenido_p":"matteo stucchi es un cocinero italiano de solo 23 años que se ha hecho famoso en internet por enseñar sus postres de una manera muy peculiar. a él no le bastaba con hacer un bodegón bonito y subirlo a instagram. qué va. él quería que fuera algo más especial, más curioso, más en miniatura. así que cada vez que sube una foto, crea todo un universo de pequeños personajes alrededor de sus dulces que, literalmente, lo petan.",
     "contenido_s":"si lo buscas en instagram, verás que ha elegido un nombre muy bien traído para su proyecto: i dolci di gulliver. y es que claro, todos esos postres son gigantescos al lado de las personitas que trabajan en los tiramisús, las palmeritas o los profiteroles para que tú puedas comértelos. aunque no todo va a ser trabajar, a veces los muffins se convierten en montañas que escalar y los brownies en ríos de chocolate que hay que navegar. todo muy loco, sip.",
-    "imgPost": "../../../assets/img/tarjeta2.jpg",
-    "imgPrincipal":"../../../assets/img/tarjeta4.jpg"
+    "imgPost": "assets/img/tarjeta2.jpg",
+    "imgPrincipal":"assets/img/tarjeta4.jpg"
 
   }
 

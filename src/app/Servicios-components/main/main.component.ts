@@ -34,7 +34,7 @@ constructor(private cookie:CookieService, private service: ServicioService, priv
       });
 
      })
-  
+
 
 }
 
@@ -64,14 +64,14 @@ AgregarCarrito(id:any){
         'id':this.Servicios[index].id,
         'img':this.Servicios[index].img,
         'nombre':this.Servicios[index].titulo,
-        'precio':this.Servicios[index].precio_d,
-         cantidad:1
+        'precio':this.Servicios[index].precio,
+         cantidad:0
          });
 
     }/* else{
       this.Carrito[indexC].cantidad=this.Carrito[indexC].cantidad+1
     }*/
-    this.toltal=this.toltal+this.Servicios[index].precio_d;
+    this.toltal=this.toltal+this.Servicios[index].precio;
 
   }
 
