@@ -1,27 +1,19 @@
-# ProyectoCliente
+#Proyect E-Commerce
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+<img style="margin:0px auto;" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqLrVEdn3qqqiKBuxaA4OzC_thvX1XcwSy0g&usqp=CAU>
 
-## Development server
+This project was carried out with the Angular framework and consisted of creating an E-Commerce type web page for a client, which contains a home, a services section with its respective shopping cart, a blog section and a Meet Us section. This E-Commerce was made based on the knowledge we have acquired in the course of our learning process, relying on different libraries and videos that we found. on the web putting ourselves to the test and surpassing ourselves. In this project different tools such as bootstrap, swiper, etc. were implemented.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h1>steps to follow</h1>
 
-## Code scaffolding
+<ul>
+   <li>A backlog was made with the steps to follow</li>
+   <li>The design was created in figma</li>
+   <li>A new project was made in Angular with its respective components and services</li>
+   <li>Changed HTML, SCSS, and Typescript elements </li>
+   <li>Once the project was finished with its respective deploy, it was deployed in GITHUB PAGES</li>
+   <li>Delivery of the E-Commerce page to the client</li>
+</ul>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+h1>Author</h1>
+Jose Maria Gonzalez Machin
