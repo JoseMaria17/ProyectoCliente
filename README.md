@@ -1,6 +1,6 @@
 #Proyect E-Commerce
 
-<img style="margin:0px auto;" src=https://thumbs.gfycat.com/MindlessBronzeCardinal-size_restricted.gif>
+<img style="margin:0px auto;" src=https://i.postimg.cc/760WT8VJ/Capturasv.png>
 
 This project was carried out with the Angular framework and consisted of creating an E-Commerce type web page for a client, which contains a home, a services section with its respective shopping cart, a blog section and a Meet Us section. This E-Commerce was made based on the knowledge we have acquired in the course of our learning process, relying on different libraries and videos that we found. on the web putting ourselves to the test and surpassing ourselves. In this project different tools such as bootstrap, swiper, etc. were implemented.
 
