@@ -1,6 +1,6 @@
 #Proyect E-Commerce
 
-<p style="text-align: center;">
+<p style="align:center;">
 <img style="width:450px; " src=https://i.postimg.cc/760WT8VJ/Capturasv.png>
 </p>
 
