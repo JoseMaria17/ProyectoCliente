@@ -1,6 +1,6 @@
 <h1>Proyect E-Commerce</h1>
 
-<p style="text-align:center; >
+<p>
 <img style="width:100%; height:600px;"  src="https://i.postimg.cc/760WT8VJ/Capturasv.png">
 </p>
 
