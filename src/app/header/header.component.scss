@@ -1,4 +1,114 @@
-.navbar>.container-fluid{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #895D3B;
+}
+
+.logo {
+  max-width: 5rem;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #ececec;
+}
+
+.abrir-menu,
+.cerrar-menu {
+  display: none;
+}
+
+.numerito {
+  background-color: var(--clr-white);
+  color: #ececec;
+  padding: .15rem .25rem;
+  border-radius: .25rem;
+}
+
+.boton-carrito.active .numerito {
+  background-color: var(--clr-main);
+  color: var(--clr-white);
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+  .abrir-menu,
+  .cerrar-menu {
+      display: block;
+      border: 0;
+      font-size: 1.25rem;
+      background-color: transparent;
+      cursor: pointer;
+
+  }
+
+  .abrir-menu {
+      color: #ececec;
+  }
+
+  .cerrar-menu {
+      color: #ececec;
+  }
+
+  .nav {
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 2rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #895d3b;
+      padding: 2rem;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+      width: 250px;
+
+  }
+
+  .nav.visible {
+      opacity: 1;
+      visibility: visible;
+  }
+
+  .nav-list {
+      flex-direction: column;
+      align-items: end;
+  }
+
+  .nav-list li a {
+      color: #ecececec;
+  }
+
+}
+
+
+
+
+
+
+/* .navbar>.container-fluid{
   background-color: #895D3B;
 }
 
@@ -28,22 +138,22 @@ li a:hover{
     margin-bottom: 0;
     list-style: none;
     text-align: center;
-  }
+  } */
 
  /*  .navbar-toggler-icon{
     color: white !important;
   }
  */
 
-  img{
+  /* img{
     width: 100px;
   }
 
 
 .navbar-toggler{
     border:none;
-   /*  background-color: rgba(255, 255, 255, 0.87) !important;
- */
+   background-color: rgba(255, 255, 255, 0.87) !important;
+
   }
 
   .navbar-toggler{
@@ -51,15 +161,15 @@ li a:hover{
     box-shadow:none;
   }
 
-  }
+  } */
 
 
-  @media screen and (min-width:600px){
+ /*  @media screen and (min-width:600px){
 
     .navbar-nav {
- /*  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-x: 0;
       --bs-nav-link-padding-y: 0.5rem;
-      --bs-nav-link-font-weight: ; */
+      --bs-nav-link-font-weight: ;
 
       display: flex;
 
@@ -72,3 +182,4 @@ li a:hover{
 
 
   }
+ */

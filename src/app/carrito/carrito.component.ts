@@ -2,15 +2,13 @@ import { Component } from '@angular/core';
 import { ScriptsService } from '../servicios/scripts.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-carrito',
+  templateUrl: './carrito.component.html',
+  styleUrls: ['./carrito.component.scss']
 })
-
-export class HeaderComponent{
+export class CarritoComponent {
 
   constructor(private scriptService: ScriptsService) {
-    scriptService.carga(["header"]);
+    scriptService.carga(["carrito"]);
   }
-
 }
