@@ -17,6 +17,7 @@ import { CarritoService } from './servicios/carrito.service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { CarritoComponent } from './carrito/carrito.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
     BlogComponent,
     ConocenosComponent,
     ServiciosComponent,
-    TarjetasComponent
+    TarjetasComponent,
+    CarritoComponent
 
 
 
