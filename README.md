@@ -1,7 +1,7 @@
 <h1>Proyect E-Commerce</h1>
 
-<p style="margin-left:400px;">
-<img style="width:450px; " src=https://i.postimg.cc/760WT8VJ/Capturasv.png>
+<p>
+<img style="width:100%; height:600px;"  src="https://i.postimg.cc/760WT8VJ/Capturasv.png">
 </p>
 
 This project was carried out with the Angular framework and consisted of creating an E-Commerce type web page for a client, which contains a home, a services section with its respective shopping cart, a blog section and a Meet Us section. This E-Commerce was made based on the knowledge we have acquired in the course of our learning process, relying on different libraries and videos that we found. on the web putting ourselves to the test and surpassing ourselves. In this project different tools such as bootstrap, swiper, etc. were implemented.
