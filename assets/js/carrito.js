@@ -28,7 +28,7 @@ function cargarProductosCarrito(){
             const div = document.createElement("div");
             div.classList.add("carrito-producto");
             div.innerHTML = `
-                <img class="carrito-producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+                <img class="carrito-producto-imagen style="width:200px; height:250px;" src="${producto.imagen}" alt="${producto.titulo}">
                 <div class="carrito-producto-titulo">
                     <small>Título</small>
                     <h3>${producto.titulo}</h3>
@@ -74,7 +74,7 @@ function actualizarBotonesEliminar() {
 }
 
 function eliminarDelCarrito(e){
-    Toastify({
+   /*  Toastify({
         text: "Producto eliminado",
         duration: 3000,
         close: true,
@@ -92,7 +92,7 @@ function eliminarDelCarrito(e){
             y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
           },
         onClick: function(){} // Callback after click
-      }).showToast();
+      }).showToast(); */
 
     const idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
