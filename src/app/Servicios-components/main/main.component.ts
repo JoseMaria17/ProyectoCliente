@@ -8,7 +8,10 @@ import { ScriptsService } from '../../servicios/scripts.service';
   styleUrls: ['./main.component.scss']
 })
 
+
 export class MainComponent {
+
+
 
   constructor(private scriptService: ScriptsService) {
   scriptService.carga(["productos"]);

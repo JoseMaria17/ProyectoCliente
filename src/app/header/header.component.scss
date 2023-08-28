@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+#numerito{
+  display: none;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -34,9 +38,9 @@ header {
 }
 
 .numerito {
-  background-color: var(--clr-white);
-  color: #ececec;
-  padding: .15rem .25rem;
+  background-color: #ececec;
+  color: #895D3B;
+  padding: 0.1rem 0.45rem;
   border-radius: .25rem;
 }
 
@@ -45,6 +49,18 @@ header {
   color: var(--clr-white);
 }
 
+.boton-menu {
+  background-color: transparent;
+  border: 0;
+  color: var(--clr-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 600;
+  font-size: .85rem;
+  width: 100%;
+}
 
 
 
