@@ -74,7 +74,7 @@ function actualizarBotonesEliminar() {
 }
 
 function eliminarDelCarrito(e){
-   /*  Toastify({
+    /* Toastify({
         text: "Producto eliminado",
         duration: 3000,
         close: true,
