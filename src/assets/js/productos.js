@@ -21,7 +21,7 @@ cerrar.addEventListener("click", () => {
 
 let productos = [];
 
-fetch("/assets/productos.json")
+fetch("assets/productos.json")
     .then(response => response.json())
     .then(data => {
         productos = data;
