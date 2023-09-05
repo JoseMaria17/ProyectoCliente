@@ -35,35 +35,33 @@ botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
 }))
 
 
- function cargarProductos(productosElegidos) {
+function cargarProductos(productosElegidos) {
 
-    contenedorProductos.innerHTML = "";
-    productosElegidos.forEach(producto=>{
+  contenedorProductos.innerHTML = "";
+  productosElegidos.forEach(producto=>{
 
-    const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
-      <img class="producto-imagen" style="width:400px; height:250px;" src="${producto.imagen}" alt="${producto.titulo}">
-      <div class="producto-detalles">
-          <h2 class="producto-titulo">${producto.titulo}</h2>
-          <h3>Profesor:${producto.docente}</h3>
-          <h4>Tipo:${producto.tipo}</h4>
-          <h5 class="producto-precio">$${producto.precio}</h5>
-          <button class="producto-agregar" id="${producto.id}">Agregar</button>
-      </div>
-      </div>`;
+
+
+      const div = document.createElement("div");
+      div.classList.add("producto");
+      div.innerHTML = `
+          <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+          <div class="producto-detalles">
+              <h3 class="producto-titulo">${producto.titulo}</h3>
+              <p class="producto-precio">$${producto.precio}</p>
+              <button class="producto-agregar" id="${producto.id}">Agregar</button>
+          </div>
+      `;
 
       contenedorProductos.append(div);
-    })
+  })
 
-
-
-    actualizarBotonesAgregar();
+  actualizarBotonesAgregar();
 
 }
 
 
-cargarProductos(productos)
+/* cargarProductos(productos)
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
 
@@ -86,7 +84,7 @@ botonesCategorias.forEach(boton => {
 
 
     })
-});
+}); */
 
 
 

@@ -4,7 +4,7 @@
       "titulo": "Mentoría 1:1 Ayurveda y Jyotish",
       "docente": "silvia",
       "tipo": "taller",
-      "imagen": "../assets/img/TARJETA_1.jpg",
+      "imagen": "assets/img/TARJETA_1.jpg",
       "precio":100000
 
   },
@@ -14,7 +14,7 @@
     "titulo": "Taller Auto-masaje Ayurvédico",
     "docente": "silvia",
     "tipo": "taller",
-    "imagen":"../assets/img/TARJETA_2.jpg",
+    "imagen":"assets/img/TARJETA_2.jpg",
     "precio":100000
 
   },
@@ -24,7 +24,7 @@
     "titulo": "Taller Fundamentos de Ayurveda y Jyotish",
     "docente": "silvia",
     "tipo": "taller",
-    "imagen":"../assets/img/TARJETA_3.jpg" ,
+    "imagen":"assets/img/TARJETA_3.jpg" ,
     "precio":100000
 
   },
@@ -34,28 +34,9 @@
   "titulo": "Grupo de Estudio: El Tallador de Diamantes ",
   "docente": "silvia",
   "tipo": "taller",
-  "imagen":"../assets/img/TARJETA_4.jpg",
+  "imagen":"assets/img/TARJETA_4.jpg",
   "precio":100000
 
-  },
-
-  {
-  "id": "servicio-05",
-  "titulo": "Grupo de Estudio: Bhagavad Gita",
-  "docente": "silvia",
-  "tipo": "taller",
-  "imagen":"../assets/img/TARJETA_5.jpg",
-  "precio":100000
-
-  },
-
-  {
-  "id": "servicio-06",
-  "titulo": "Clases de Yoga ",
-  "docente": "silvia",
-  "tipo": "taller",
-  "imagen":"../assets/img/TARJETA_6.jpg",
-  "precio":100000
   }
 
 ]
