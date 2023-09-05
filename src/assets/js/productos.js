@@ -1,25 +1,25 @@
-const nav = document.querySelector("#nav");
+/* const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
-const cerrar = document.querySelector("#cerrar");
+const cerrar = document.querySelector("#cerrar"); */
 
 const contenedorProductos = document.getElementById("contenedor-productos");
  const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
-const numerito = document.querySelector("#numerito");
+/* const numerito = document.querySelector("#numerito"); */
 
 
 
-abrir.addEventListener("click", () => {
+/* abrir.addEventListener("click", () => {
     nav.classList.add("visible");
 })
 
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
+ */
 
 
-let productos = [];
 
 fetch("assets/productos.json")
     .then(response => response.json())
@@ -28,6 +28,7 @@ fetch("assets/productos.json")
         cargarProductos(productos);
     })
 
+let productos = [];
 
 
 botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
@@ -35,38 +36,40 @@ botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
 }))
 
 
-function cargarProductos(productosElegidos) {
+ function cargarProductos(productosElegidos) {
 
-  contenedorProductos.innerHTML = "";
-  productosElegidos.forEach(producto=>{
+    contenedorProductos.innerHTML = "";
+    productosElegidos.forEach(producto=>{
 
-
-
-      const div = document.createElement("div");
-      div.classList.add("producto");
-      div.innerHTML = `
-          <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-          <div class="producto-detalles">
-              <h3 class="producto-titulo">${producto.titulo}</h3>
-              <p class="producto-precio">$${producto.precio}</p>
-              <button class="producto-agregar" id="${producto.id}">Agregar</button>
-          </div>
-      `;
+    const div = document.createElement("div");
+        div.classList.add("producto");
+        div.innerHTML = `
+      <img class="producto-imagen" style="width:400px; height:250px;" src="${producto.imagen}" alt="${producto.titulo}">
+      <div class="producto-detalles">
+          <h2 class="producto-titulo">${producto.titulo}</h2>
+          
+          <h4>Tipo:${producto.tipo}</h4>
+          <h5 class="producto-precio">$${producto.precio}</h5>
+          <button class="producto-agregar" id="${producto.id}">Agregar</button>
+      </div>
+      </div>`;
 
       contenedorProductos.append(div);
-  })
+    })
 
-  actualizarBotonesAgregar();
+
+
+    actualizarBotonesAgregar();
 
 }
 
 
-/* cargarProductos(productos)
+cargarProductos(productos)
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
 
-        botonesCategorias.forEach(boton => boton.classList.remove("active"));
-        e.currentTarget.classList.add("active");
+        /* botonesCategorias.forEach(boton => boton.classList.remove("active"));
+        e.currentTarget.classList.add("active"); */
 
         if (e.currentTarget.id != "todos") {
             const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
@@ -84,7 +87,7 @@ botonesCategorias.forEach(boton => {
 
 
     })
-}); */
+});
 
 
 

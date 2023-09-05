@@ -21,7 +21,7 @@
 
   {
     "id": "servicio-03",
-    "titulo": "Taller Fundamentos de Ayurveda y Jyotish",
+    "titulo": "Taller Fundamentos de Ayurveda",
     "docente": "silvia",
     "tipo": "taller",
     "imagen":"assets/img/TARJETA_3.jpg" ,
@@ -37,6 +37,25 @@
   "imagen":"assets/img/TARJETA_4.jpg",
   "precio":100000
 
+  },
+
+  {
+  "id": "servicio-05",
+  "titulo": "Grupo de Estudio: Bhagavad Gita",
+  "docente": "silvia",
+  "tipo": "taller",
+  "imagen":"assets/img/TARJETA_5.jpg",
+  "precio":100000
+
+  },
+
+  {
+  "id": "servicio-06",
+  "titulo": "Clases de Yoga ",
+  "docente": "silvia",
+  "tipo": "taller",
+  "imagen":"assets/img/TARJETA_6.jpg",
+  "precio":100000
   }
 
 ]
